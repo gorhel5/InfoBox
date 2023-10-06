@@ -1,0 +1,17 @@
+$background-color: #fff;
+
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: $background-color;
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid red;
+  height: 480px;
+}
+
+.slides {
+  position: relative;
+  height: 380px;
+}
